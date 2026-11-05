@@ -1,0 +1,15 @@
+/* Chosen's appearance and field width follow the active Joget theme. */
+.monarch-multiselect-cell .chosen-container-multi .ui-shadow-inset,
+.monarch-multiselect-cell .chosen-container-multi .ui-shadow-inset.ui-focus {
+    box-shadow: none !important;
+    margin: 2px 0 0 !important;
+    border: 0 !important;
+}
+.monarch-multiselect-cell .monarch-multiselect-help {
+    clear: both;
+    font-size: .875em;
+    opacity: .75;
+}
+.monarch-multiselect-cell .monarch-multiselect-help:empty { display: none; }
+.monarch-multiselect-cell.monarch-multiselect-invalid .chosen-choices { border-color: #b91c1c; }
+.monarch-multiselect-cell .monarch-multiselect-empty { opacity: .65; }
